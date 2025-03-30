@@ -28,23 +28,19 @@ export default function Home() {
         <Summary />
       </div>
       {/* Card Section */}
-      <div className=" border h-80 flex gap-4 ">
+      <div className=" bg-[#f8f7fa] dark:bg-transparent mt-3 h-80 flex gap-4 ">
         <div className="basis-1/2 flex gap-4">
-          <div className="basis-1/2 bg-white rounded-xl shadow-lg shadow-gray-100">
-            trending coins
-          </div>
-          <div className="basis-1/2 bg-white rounded-xl shadow-lg shadow-gray-100">
-            dex scan
-          </div>
+          <div className="basis-1/2 bg-card rounded-xl ">trending coins</div>
+          <div className="basis-1/2 bg-card rounded-xl ">dex scan</div>
         </div>
         <div className="basis-1/2  flex gap-4">
-          <div className="basis-1/2 *:bg-white *:rounded-xl *:shadow-lg shadow-gray-100 grid grid-cols-2 gap-4">
+          <div className="basis-1/2 *:bg-card *:rounded-xl grid grid-cols-2 gap-4">
             <div className="">1</div>
             <div className="">2</div>
             <div className="">3</div>
             <div className="">4</div>
           </div>
-          <div className="basis-1/2  *:bg-white *:rounded-xl *:shadow-lg shadow-gray-100 grid  gap-4">
+          <div className="basis-1/2  *:bg-card *:rounded-xl  grid  gap-4">
             <div className=""></div>
             <div className=""></div>
           </div>

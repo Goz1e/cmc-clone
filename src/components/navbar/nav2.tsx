@@ -1,8 +1,10 @@
-import { AiOutlinePieChart } from "react-icons/ai";
 import { Button } from "../ui/button";
 import { CiSearch } from "react-icons/ci";
 import { FiSmartphone } from "react-icons/fi";
 import { FiMenu } from "react-icons/fi";
+import { GoStarFill } from "react-icons/go";
+import { PiChartPieSliceFill } from "react-icons/pi";
+
 import {
   Popover,
   PopoverContent,
@@ -14,16 +16,25 @@ import SettingsPopover from "../settingsPopover";
 
 const Nav2 = () => {
   return (
-    <div className="flex gap-3 text-sm font-medium content-center items-center">
-      <Button variant={"ghost"} size={"sm"}>
-        <AiOutlinePieChart fill="#616a7f" />
-        Portfolio
-      </Button>
-      <Button variant={"ghost"} size={"sm"} className="hover:bg-transparent">
-        <AiOutlinePieChart fill="#616a7f" />
-        Watchlist
-      </Button>
-      <Button size={"sm"} className="bg-grey dark:text-[#616a7f]">
+    <div className="flex gap-2 text-sm font-medium content-center items-center">
+      <div className="inline-flex">
+        <Button variant={"ghost"} size={"sm"} className=" bg-transparent !px-2">
+          <PiChartPieSliceFill fill="#616a7f" className="rotate-90" />
+          Portfolio
+        </Button>
+        <Button
+          variant={"ghost"}
+          size={"sm"}
+          className="hover:bg-transparent bg-transparent !px-2"
+        >
+          <GoStarFill fill="#616a7f" />
+          Watchlist
+        </Button>
+      </div>
+      <Button
+        size={"sm"}
+        className="bg-grey dark:text-[#616a7f] hover:bg-grey/80 dark:hover:bg-gray-700"
+      >
         <CiSearch fill="#616a7f" opacity={50} className="ms-1" />
         {"  "}
         <p className="font-medium text-gray-400 dark:text-gray-200/50 ">

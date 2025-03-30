@@ -67,13 +67,13 @@ const TabSwitcher = () => {
     <div className="relative flex h-9 items-center justify-between gap-1 rounded-lg bg-grey p-0.5 ">
       <div
         ref={activeRef}
-        className="absolute left-0 h-7 rounded-md bg-orange-500/50 transition-all duration-300"
+        className="absolute left-0 h-7 rounded-md text-graytext bg-orange-500/50 transition-all duration-300"
       />
 
       <button
         ref={lightButtonRef}
         className={`relative z-20 h-full rounded-md px-3 ${
-          theme === "Light" ? "text-white" : "text-black"
+          theme === "Light" && "font-semibold"
         }`}
         onClick={() => handleThemeChange("Light")}
       >
@@ -83,7 +83,7 @@ const TabSwitcher = () => {
       <button
         ref={darkButtonRef}
         className={`relative z-20 h-full rounded-md px-3 ${
-          theme === "Dark" ? "text-white" : "text-black"
+          theme === "Dark" && "font-semibold"
         }`}
         onClick={() => handleThemeChange("Dark")}
       >
@@ -93,7 +93,7 @@ const TabSwitcher = () => {
       <button
         ref={systemButtonRef}
         className={`relative z-20 h-full rounded-md px-3 ${
-          theme === "System" ? "text-white" : "text-black"
+          theme === "Dark" && "font-semibold"
         }`}
         onClick={() => handleThemeChange("System")}
       >
