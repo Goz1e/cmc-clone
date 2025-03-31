@@ -4,6 +4,7 @@ import Nav2 from "@/components/navbar/nav2";
 import InfoNav from "@/components/navbar/infonav";
 import Nav4 from "@/components/navbar/nav4";
 import Summary from "@/components/summary";
+import Container from "@/components/cards/container";
 // import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -30,8 +31,12 @@ export default function Home() {
       {/* Card Section */}
       <div className=" bg-[#f8f7fa] dark:bg-transparent mt-3 h-80 flex gap-4 ">
         <div className="basis-1/2 flex gap-4">
-          <div className="basis-1/2 bg-card rounded-xl ">trending coins</div>
-          <div className="basis-1/2 bg-card rounded-xl ">dex scan</div>
+          <div className="basis-1/2 bg-card rounded-xl p-4">
+            <Container />
+          </div>
+          <div className="basis-1/2 bg-card rounded-xl p-4">
+            <Container />
+          </div>
         </div>
         <div className="basis-1/2  flex gap-4">
           <div className="basis-1/2 *:bg-card *:rounded-xl grid grid-cols-2 gap-4">

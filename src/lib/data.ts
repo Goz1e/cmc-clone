@@ -5,6 +5,7 @@ export const hotCryptos = [
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/34570.png",
     price: "$0.0009266",
     change: "9.18%",
+    positon: true,
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const hotCryptos = [
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/23254.png",
     price: "$0.4867",
     change: "23.77%",
+    positon: false,
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const hotCryptos = [
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/8707.png",
     price: "$0.05716",
     change: "15.13%",
+    positon: true,
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const hotCryptos = [
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png",
     price: "$0.5937",
     change: "8.63%",
+    positon: false,
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const hotCryptos = [
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/33108.png",
     price: "$0.00007616",
     change: "17.25%",
+    positon: true,
   },
 ];
 
@@ -45,6 +50,7 @@ export const recentCrypto = [
     change: 0.21,
     priceDisplay: "$0.0113585",
     changeDisplay: "0.21%",
+    positon: false,
   },
   {
     id: 2,
@@ -54,6 +60,7 @@ export const recentCrypto = [
     change: 2.29,
     priceDisplay: "$0.05663",
     changeDisplay: "2.29%",
+    positon: true,
   },
   {
     id: 3,
@@ -63,6 +70,7 @@ export const recentCrypto = [
     change: 127.44,
     priceDisplay: "$0.0129295",
     changeDisplay: "127.44%",
+    positon: false,
   },
   {
     id: 4,
@@ -72,6 +80,7 @@ export const recentCrypto = [
     change: 0.91,
     priceDisplay: "$0.9376",
     changeDisplay: "0.91%",
+    positon: false,
   },
   {
     id: 5,
@@ -81,6 +90,7 @@ export const recentCrypto = [
     change: 46.35,
     priceDisplay: "$0.0001458",
     changeDisplay: "46.35%",
+    positon: true,
   },
 ];
 
@@ -93,7 +103,8 @@ export const mostVisitedCypto = [
     priceDisplay: "$82,607.79",
     change: 0.01,
     changeDisplay: "0.01%",
-    changeType: "neutral", // positive/negative/neutral
+    changeType: "neutral",
+    positon: true,
   },
   {
     id: 2,
@@ -104,6 +115,7 @@ export const mostVisitedCypto = [
     change: 0.43,
     changeDisplay: "0.43%",
     changeType: "positive",
+    positon: true,
   },
   {
     id: 3,
@@ -114,6 +126,7 @@ export const mostVisitedCypto = [
     change: 0.84,
     changeDisplay: "0.84%",
     changeType: "positive",
+    positon: false,
   },
   {
     id: 4,
@@ -124,6 +137,7 @@ export const mostVisitedCypto = [
     change: 4.23,
     changeDisplay: "4.23%",
     changeType: "positive",
+    positon: true,
   },
   {
     id: 5,
@@ -134,5 +148,6 @@ export const mostVisitedCypto = [
     change: 0.14,
     changeDisplay: "0.14%",
     changeType: "positive",
+    positon: false,
   },
 ];

@@ -1,7 +1,7 @@
 // import { toggleDark } from "@/lib/color-scheme-toggler";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import TabSwitcher from "./tabSwitcher";
+import ThemeSwitcher from "./themeSwitcher";
 
 const SettingsPopover = () => {
   return (
@@ -39,7 +39,7 @@ const SettingsPopover = () => {
       </div>
       <div className="w-full inline-flex justify-between items-center">
         <p className="">Theme</p>
-        <TabSwitcher />
+        <ThemeSwitcher />
       </div>
       <div className=" inline-flex w-full gap-2 font-semibold border-gray-200 border-t-[1px]  dark:border-gray-200/20 pt-4">
         <Button variant={"ghost"} className="basis-1/2 h-8">
@@ -49,15 +49,6 @@ const SettingsPopover = () => {
           API
         </Button>
       </div>
-      {/* <button
-        onClick={() => {
-          toggleDark();
-        }}
-        type="button"
-      >
-        {" "}
-        toggle dark
-      </button> */}
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useRef } from "react";
 
-const TabSwitcher = () => {
+const ThemeSwitcher = () => {
   const [theme, setTheme] = useState<"Light" | "Dark" | "System">("Light");
   const activeRef = useRef<HTMLDivElement>(null);
   const lightButtonRef = useRef<HTMLButtonElement>(null);
@@ -67,7 +67,7 @@ const TabSwitcher = () => {
     <div className="relative flex h-9 items-center justify-between gap-1 rounded-lg bg-grey p-0.5 ">
       <div
         ref={activeRef}
-        className="absolute left-0 h-7 rounded-md text-graytext bg-orange-500/50 transition-all duration-300"
+        className="absolute left-0 h-7 rounded-md text-graytext bg-card transition-all duration-300"
       />
 
       <button
@@ -103,74 +103,4 @@ const TabSwitcher = () => {
   );
 };
 
-// <RadioGroup
-//   newTheme={theme}
-//   onnewThemeChange={handleThemeChange}
-//   className="bg-grey inline-flex rounded-md p-1 transition-all"
-// >
-//   <div
-//     className={cn(
-//       "flex rounded-md items-center space-x-2 p-2",
-//       theme === "Light" && "bg-white"
-//     )}
-//   >
-//     <RadioGroupItem newTheme="Light" id="Light" />
-//     <Label htmlFor="Light">Light</Label>
-//   </div>
-//   <div
-//     className={cn(
-//       "flex rounded-md items-center space-x-2 p-2",
-//       theme === "Dark" && "bg-white"
-//     )}
-//   >
-//     <RadioGroupItem newTheme="Dark" id="Dark" />
-//     <Label htmlFor="Dark">Dark</Label>
-//   </div>
-//   <div
-//     className={cn(
-//       "flex rounded-md items-center space-x-2 p-2",
-//       theme === "System" && "bg-white"
-//     )}
-//   >
-//     <RadioGroupItem newTheme="System" id="System" />
-//     <Label htmlFor="System">System</Label>
-//   </div>
-// </RadioGroup>
-
-export default TabSwitcher;
-
-/**
-
-const btns = document.querySelectorAll("button")
-
-const active = document.querySelector(".active")
-
-onclick => {
-
-let move = (100/btns.length) * i;
-active.slyle.left = move + "%"
-}
-
-
-*/
-
-//   };
-
-//   // Initialize theme from localStorage on component mount
-//   useEffect(() => {
-//     const savedTheme = localStorage.theme;
-//     if (savedTheme === "dark" || savedTheme === "light") {
-//       setTheme(savedTheme.charAt(0).toUpperCase() + savedTheme.slice(1));
-//     }
-
-//     // Apply initial theme
-//     if (
-//       localStorage.theme === "dark" ||
-//       (!("theme" in localStorage) &&
-//         window.matchMedia("(prefers-color-scheme: dark)").matches)
-//     ) {
-//       document.documentElement.classList.add("dark");
-//     } else {
-//       document.documentElement.classList.remove("dark");
-//     }
-//   }, []);
+export default ThemeSwitcher;
