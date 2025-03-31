@@ -11,6 +11,20 @@ const nextConfig: NextConfig = {
         // pathname: '/account123/**',
         search: "",
       },
+      {
+        protocol: "https",
+        hostname: "s3.coinmarketcap.com",
+        port: "",
+        // pathname: '/account123/**',
+        search: "",
+      },
+      {
+        protocol: "https",
+        hostname: "academy-public.coinmarketcap.com",
+        port: "",
+        // pathname: '/account123/**',
+        search: "",
+      },
     ],
   },
 };

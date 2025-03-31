@@ -5,6 +5,10 @@ import InfoNav from "@/components/navbar/infonav";
 import Nav4 from "@/components/navbar/nav4";
 import Summary from "@/components/summary";
 import Container from "@/components/cards/container";
+import Container2 from "@/components/cards/container2";
+import MarketCapCard from "@/components/cards/marketCapCard";
+import CommunityCard from "@/components/cards/communityCard";
+import NewsCard from "@/components/cards/newsCard";
 // import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -29,32 +33,65 @@ export default function Home() {
         <Summary />
       </div>
       {/* Card Section */}
-      <div className=" bg-[#f8f7fa] dark:bg-transparent mt-3 h-80 flex gap-4 ">
-        <div className="basis-1/2 flex gap-4">
+      <div className="  dark:bg-transparent mt-3 h-80 flex gap-4 ">
+        <div className="basis-1/2 flex gap-4 *:shadow-lg shadow-[#fcfcfc]">
           <div className="basis-1/2 bg-card rounded-xl p-4">
             <Container />
           </div>
           <div className="basis-1/2 bg-card rounded-xl p-4">
-            <Container />
+            <Container2 />
           </div>
         </div>
         <div className="basis-1/2  flex gap-4">
-          <div className="basis-1/2 *:bg-card *:rounded-xl grid grid-cols-2 gap-4">
-            <div className="">1</div>
-            <div className="">2</div>
-            <div className="">3</div>
-            <div className="">4</div>
+          <div className="basis-1/2 *:bg-card *:shadow-lg shadow-[#fcfcfc] *:rounded-xl grid grid-cols-2 gap-4">
+            <div className=" rounded-xl p-4">
+              <MarketCapCard
+                title={"Market Cap"}
+                volume={"$2.8T"}
+                change={"0.76%"}
+                img={"/chart/mcap.png"}
+              />
+            </div>
+            <div className=" rounded-xl p-4">
+              <MarketCapCard
+                title={"CMC 100"}
+                volume={"$162.77"}
+                change={"0.49%"}
+                img={"/chart/cmc100.png"}
+              />
+            </div>
+            <div className=" rounded-xl p-4">
+              <MarketCapCard
+                title={"CMC 100"}
+                volume={"$162.77"}
+                change={"0.49%"}
+                img={"/chart/cmc100.png"}
+              />
+            </div>
+            <div className=" rounded-xl p-4">
+              <MarketCapCard
+                title={"CMC 100"}
+                volume={"$162.77"}
+                change={"0.49%"}
+                img={"/chart/cmc100.png"}
+              />
+            </div>
           </div>
           <div className="basis-1/2  *:bg-card *:rounded-xl  grid  gap-4">
-            <div className=""></div>
-            <div className=""></div>
+            <div className="p-4">
+              <CommunityCard />
+            </div>
+            <div className="p-4">
+              {" "}
+              <NewsCard />
+            </div>
           </div>
         </div>
       </div>
       {/* Table Section */}
       <div className=" bg-gray-300 space-y-2.5 p-12 h-screen sticky overflow-y-scroll">
         {" "}
-        <div className=" bg-gray-400 h-screen  "></div>
+        <div className=" bg-gray-400 h-screen  ">ff</div>
         <div className=" bg-gray-400 h-screen "></div>
       </div>
     </div>
