@@ -150,3 +150,8 @@ body {
   margin-right: auto;
   /* white-space: nowrap; */
 }
+
+::-webkit-scrollbar {
+  display: none;
+  /* width: 2px; */
+}

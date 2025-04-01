@@ -10,6 +10,8 @@ import MarketCapCard from "@/components/cards/marketCapCard";
 import CommunityCard from "@/components/cards/communityCard";
 import NewsCard from "@/components/cards/newsCard";
 import AltCard from "@/components/cards/altCard";
+import Categories from "@/components/cards/table/categories";
+import Filters from "@/components/cards/table/filters";
 // import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -85,9 +87,9 @@ export default function Home() {
         </div>
       </div>
       {/* Table Section */}
-      <div className=" bg-gray-300 space-y-2.5 p-12 h-screen sticky overflow-y-scroll">
-        {" "}
-        <div className=" bg-gray-400 h-screen  ">ff</div>
+      <div className="space-y-2.5 h-screen sticky overflow-y-scroll">
+        <Categories />
+        <Filters />
         <div className=" bg-gray-400 h-screen "></div>
       </div>
     </div>

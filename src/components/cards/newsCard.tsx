@@ -28,7 +28,7 @@ const NewsCard = () => {
       </div>
       <div className="flex gap-4 flex-grow ">
         <div className=" basis-1/4 rounded-md">
-          <div className=" h-full">
+          <div className=" h-full aspect-square">
             <Image
               src={
                 "https://academy-public.coinmarketcap.com/srd-optimized-uploads/2ead46d264f54422945b16f49f346b1e.jpeg"

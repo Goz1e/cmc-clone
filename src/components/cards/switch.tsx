@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { HiOutlineEye, HiOutlineClock, HiOutlineFire } from "react-icons/hi";
 import { PiPlant } from "react-icons/pi";
 import { TbStars } from "react-icons/tb";
