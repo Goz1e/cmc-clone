@@ -7,7 +7,7 @@ import { AiOutlineRetweet } from "react-icons/ai";
 
 const CommunityCard = () => {
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 max-h-full">
       <div className="inline-flex gap-2 text-sm *:items-center">
         <Image
           src={

@@ -3,13 +3,15 @@ import Image from "next/image";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  // NavigationMenuIndicator,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  // NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
+import Products from "./products";
+import Community from "./community";
+import Exchanges from "./exchanges";
+import Cryptocurrencies from "./cryptocurrencies";
+import DexScan from "./dexscan";
 
 const Navbar = () => {
   return (
@@ -21,17 +23,54 @@ const Navbar = () => {
         alt="cmc-mark"
         className="invert dark:invert-0"
       ></Image>
-      <div>Cryptocurrencies</div>
-      <div>DexScan</div>
-      <div>Exchanges</div>
-      <div>Community</div>
-      <div>Products</div>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+            <NavigationMenuTrigger>Cryptocurrencies</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <NavigationMenuLink>Link</NavigationMenuLink>
+              <Cryptocurrencies />
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+      <NavigationMenu>
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>DexScan</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <DexScan />
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+      <NavigationMenu>
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>Exchanges</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <Exchanges />
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+
+      <NavigationMenu>
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>Community</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <Community />
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+
+      <NavigationMenu>
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>Products</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <Products />
             </NavigationMenuContent>
           </NavigationMenuItem>
         </NavigationMenuList>

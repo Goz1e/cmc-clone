@@ -9,6 +9,7 @@ import Container2 from "@/components/cards/container2";
 import MarketCapCard from "@/components/cards/marketCapCard";
 import CommunityCard from "@/components/cards/communityCard";
 import NewsCard from "@/components/cards/newsCard";
+import AltCard from "@/components/cards/altCard";
 // import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -69,19 +70,14 @@ export default function Home() {
               />
             </div>
             <div className=" rounded-xl p-4">
-              <MarketCapCard
-                title={"CMC 100"}
-                volume={"$162.77"}
-                change={"0.49%"}
-                img={"/chart/cmc100.png"}
-              />
+              <AltCard />
             </div>
           </div>
-          <div className="basis-1/2  *:bg-card *:rounded-xl  grid  gap-4">
-            <div className="p-4">
+          <div className="basis-1/2  *:bg-card *:rounded-xl *:shadow-lg shadow-[#fcfcfc] flex flex-col gap-4">
+            <div className="p-4 row-span-1 basis-1/2">
               <CommunityCard />
             </div>
-            <div className="p-4">
+            <div className="p-4 row-span-1 basis-1/2">
               {" "}
               <NewsCard />
             </div>

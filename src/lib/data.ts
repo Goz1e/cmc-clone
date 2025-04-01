@@ -224,3 +224,297 @@ export const CommunityVotes = [
     down: 19,
   },
 ];
+
+export const productsMenu = {
+  products: [
+    {
+      name: "Converter",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuConverterIcon.svg",
+      link: false,
+    },
+    {
+      name: "Newsletter",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuNewsIcon.svg",
+      link: true,
+    },
+    {
+      name: "CMC Labs",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuExplorerIcon.svg",
+      link: true,
+    },
+    {
+      name: "Telegram Bot",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuTelegramBotIcon.svg",
+      link: true,
+    },
+    {
+      name: "Advertise",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuAdvertiseIcon.svg",
+      link: true,
+    },
+  ],
+  other: [
+    {
+      name: "Crypto API",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCryptoApiIcon.light.svg",
+      link: true,
+    },
+    {
+      name: "Site Widgets",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuWidgetsIcon.light.svg",
+      link: false,
+    },
+  ],
+  campaigns: [
+    {
+      name: "Airdrops",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuAirdropsIcon.svg",
+      link: false,
+    },
+    {
+      name: "Diamond Rewards",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuRewardsIcon.svg",
+      link: false,
+    },
+    {
+      name: "Learn & Earn",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuEarnCryptoIcon.svg",
+      link: true,
+    },
+  ],
+  calendars: [
+    {
+      name: "ICO Calendar",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuICOIcon.svg",
+      link: false,
+    },
+    {
+      name: "Events Calendar",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuEvents2Icon.svg",
+      link: false,
+    },
+  ],
+  learn: [
+    {
+      name: "News",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuNewsIcon.svg",
+      link: false,
+    },
+    {
+      name: "Academy",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuAlexandriaIcon.svg",
+      link: true,
+    },
+    {
+      name: "Research",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCMCResearch.svg",
+      link: true,
+    },
+    {
+      name: "Videos",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuVideosIcon.svg",
+      link: true,
+    },
+    {
+      name: "Glossary",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuGlossaryIcon.svg",
+      link: true,
+    },
+  ],
+};
+
+export const cryptoCurrenciesMenu = {
+  cryptocurrencies: [
+    {
+      name: "Ranking",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCmcIconV3.svg",
+      link: false,
+    },
+    {
+      name: "Categories",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCategoriesIconV3.svg",
+      link: false,
+    },
+    {
+      name: "Historical Snapshots",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuHistoryIconV3.svg",
+      link: false,
+    },
+    {
+      name: "Token unlocks",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuTokenUnlocksIconV2.svg",
+      link: false,
+    },
+    {
+      name: "Yield",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuYieldIconV2.svg",
+      link: false,
+    },
+  ],
+  Leaderboards: [
+    {
+      name: "Trending",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCmcIconV3.svg",
+      link: false,
+    },
+    {
+      name: "Upcoming",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuUpcomingIconV3.svg",
+      link: false,
+    },
+    {
+      name: "Recently Added",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuRecentlyAddedIconV3.svg",
+      link: false,
+    },
+    {
+      name: "Gainers & Losers",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuGainersLosersIconV3.svg",
+      link: false,
+    },
+    {
+      name: "Most Visited",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuMostVisitedV3.svg",
+      link: false,
+    },
+    {
+      name: "Community Sentiment",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCommunitySentiment.svg",
+      link: false,
+    },
+    {
+      name: "Chain Ranking",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuChainRankingV4.svg",
+      link: false,
+    },
+  ],
+  MarketOverview: [
+    {
+      name: "Market Overview",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuMarketOverviewIcon.svg",
+      link: false,
+    },
+    {
+      name: "CoinMarketCa 100 Index",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCMC100Icon.svg",
+      link: false,
+    },
+    {
+      name: "Fear and Greed Index",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuFearGreedIndexIcon.svg",
+      link: false,
+    },
+    {
+      name: "Altcoin Season Index",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuAltcoinIndexIcon.svg",
+      link: false,
+    },
+    {
+      name: "Bitcoin Dominance",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuBitcoinDominance.svg",
+      link: false,
+    },
+    {
+      name: "Crypto ETFs",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuBitcoinETFsIconV3.svg",
+      link: false,
+    },
+  ],
+  nft: [
+    {
+      name: "Overall NFT Stats",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuNFTOverviewV3.svg",
+      link: false,
+    },
+    {
+      name: "Upcoming Sales",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuUpcomingSales.svg",
+      link: false,
+    },
+  ],
+};
+
+export const exchangesMenu = {
+  centralized: [
+    {
+      name: "Spot",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuSpotIcon.svg",
+      link: false,
+    },
+    {
+      name: "Derivatives",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuDerivativesIcon.svg",
+      link: false,
+    },
+  ],
+  decentralized: [
+    {
+      name: "Spot",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuDexSpotIcon.svg",
+      link: false,
+    },
+    {
+      name: "Derivatives",
+      img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuDexDerivativesIcon.svg",
+      link: false,
+    },
+  ],
+};
+
+export const dexScanMenu = [
+  {
+    name: "New Pairs",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuMarketOverviewIcon.svg",
+    link: false,
+  },
+  {
+    name: "Trending Pairs",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCMC100Icon.svg",
+    link: false,
+  },
+
+  {
+    name: "Meme Explorer",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuBitcoinDominance.svg",
+    link: false,
+  },
+  {
+    name: "Gainers and Losers",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuBitcoinETFsIconV3.svg",
+    link: false,
+  },
+
+  {
+    name: "Community Votes",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuFearGreedIndexIcon.svg",
+    link: false,
+  },
+  {
+    name: "Top Traders",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuAltcoinIndexIcon.svg",
+    link: false,
+  },
+];
+
+export const community = [
+  {
+    name: "Feeds",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuVideosIcon.svg",
+    link: true,
+  },
+  {
+    name: "Topics",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuGlossaryIcon.svg",
+    link: true,
+  },
+  {
+    name: "Lives",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuNewsIcon.svg",
+    link: false,
+  },
+  {
+    name: "Articles",
+    img: "https://s2.coinmarketcap.com/static/cloud/img/menu/MenuCMCResearch.svg",
+    link: true,
+  },
+];
