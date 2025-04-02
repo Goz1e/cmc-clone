@@ -1,5 +1,6 @@
 import cmc_mark_light from "@/../public/cmc-mark-light.png";
 import Image from "next/image";
+import { applySavedTheme } from "@/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -14,6 +15,7 @@ import Cryptocurrencies from "./cryptocurrencies";
 import DexScan from "./dexscan";
 
 const Navbar = () => {
+  applySavedTheme();
   return (
     <div className="flex gap-5 text-sm font-semibold content-center items-center">
       <Image

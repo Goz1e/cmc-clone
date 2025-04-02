@@ -10,13 +10,13 @@ import MarketCapCard from "@/components/cards/marketCapCard";
 import CommunityCard from "@/components/cards/communityCard";
 import NewsCard from "@/components/cards/newsCard";
 import AltCard from "@/components/cards/altCard";
-import Categories from "@/components/cards/table/categories";
-import Filters from "@/components/cards/table/filters";
-// import { useEffect, useState } from "react";
+import Categories from "@/components/table/categories";
+import Filters from "@/components/table/filters";
+import CryptoTable from "@/components/table/table";
 
 export default function Home() {
   return (
-    <div className=" size-full space-y-4">
+    <div className="space-y-4">
       {/* Navbar */}
       <div className="w-full *:w-full gap-0.5 grid *:bg-gray NAVBAR">
         <div className="flex justify-between pb-3.5">
@@ -89,8 +89,9 @@ export default function Home() {
       {/* Table Section */}
       <div className="space-y-2.5 h-screen sticky overflow-y-scroll">
         <Categories />
+
         <Filters />
-        <div className=" bg-gray-400 h-screen "></div>
+        <CryptoTable />
       </div>
     </div>
   );

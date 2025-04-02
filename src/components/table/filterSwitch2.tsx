@@ -90,7 +90,7 @@ const FilterSwitch2 = ({ filter, setFilter, name }: switchProps) => {
           <button
             ref={button1Ref}
             className={`relative z-20 h-full rounded-md px-3 text-sm flex items-center gap-2 ${
-              activeTab === 1 && "font-semibold "
+              activeTab === 1 && "font-medium "
             }`}
             onClick={() => setActiveTab(1)}
           >
@@ -100,7 +100,7 @@ const FilterSwitch2 = ({ filter, setFilter, name }: switchProps) => {
           <button
             ref={button2Ref}
             className={`relative z-20 h-full rounded-md px-3 text-sm flex items-center gap-2 ${
-              activeTab === 2 && "font-semibold"
+              activeTab === 2 && "font-medium"
             }`}
             onClick={() => setActiveTab(2)}
           >
@@ -110,7 +110,7 @@ const FilterSwitch2 = ({ filter, setFilter, name }: switchProps) => {
           <button
             ref={button3Ref}
             className={`relative z-20 h-full rounded-md px-3 text-sm flex items-center gap-2 ${
-              activeTab === 3 && "font-semibold"
+              activeTab === 3 && "font-medium"
             }`}
             onClick={() => setActiveTab(3)}
           >

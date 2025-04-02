@@ -93,7 +93,7 @@ const ThemeSwitcher = () => {
       <button
         ref={systemButtonRef}
         className={`relative z-20 h-full rounded-md px-3 ${
-          theme === "Dark" && "font-semibold"
+          theme === "System" && "font-semibold"
         }`}
         onClick={() => handleThemeChange("System")}
       >
