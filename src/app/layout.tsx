@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="antialiased ">
+      <body className="antialiased size-full">
         <div className="size-full hidden md:block">{children}</div>
         <div className="size-full md:hidden">
           <SwitchToDesktop />
