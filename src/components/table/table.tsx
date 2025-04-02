@@ -20,7 +20,7 @@ const CryptoTable = () => {
   return (
     <div className="w-full relative">
       <Table>
-        <TableCaption>A list of your recent invoices.</TableCaption>
+        <TableCaption>A very close clone of CoinmarketCap.com</TableCaption>
         <TableHeader>
           <TableRow className="sticky def">
             <TableHead></TableHead>
