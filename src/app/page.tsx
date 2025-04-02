@@ -16,7 +16,7 @@ import CryptoTable from "@/components/table/table";
 
 export default function Home() {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-full">
       {/* Navbar */}
       <div className="w-full *:w-full gap-0.5 grid *:bg-gray NAVBAR">
         <div className="flex justify-between pb-3.5">
