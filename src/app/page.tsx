@@ -29,14 +29,14 @@ export default function Home() {
         </div>
       </div>
       {/* Hero Section */}
-      <div className="space-y-2 py-2">
+      <div className="space-y-2 py-2 w-full">
         <p className="text-2xl font-bold">
           {"Today's Cryptocurrency Prices by Market Cap"}
         </p>
         <Summary />
       </div>
       {/* Card Section */}
-      <div className="  dark:bg-transparent mt-3 h-80 flex gap-4 ">
+      <div className=" w-full dark:bg-transparent mt-3 h-80 flex gap-4 ">
         <div className="basis-1/2 flex gap-4 *:shadow-lg shadow-[#fcfcfc]">
           <div className="basis-1/2 bg-card rounded-xl p-4">
             <Container />
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </div>
       {/* Table Section */}
-      <div className="space-y-2.5 h-screen sticky overflow-y-scroll">
+      <div className="space-y-2.5 w-full sticky overflow-y-scroll">
         <Categories />
 
         <Filters />
